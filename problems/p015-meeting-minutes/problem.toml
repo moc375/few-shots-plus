@@ -1,0 +1,25 @@
+id = "p015"
+slug = "meeting-minutes"
+title_zh = "智能会议纪要生成器"
+title_en = "Intelligent Meeting Minutes Generator"
+kind = "certificate"
+sandbox = false
+proposer = "moc375"
+metric_zh = "结构化召回得分"
+metric_en = "structured recall score"
+direction = "max"
+progress_unit = "分"
+baseline_score = "0.82"
+baseline_kind = "certificate"
+epsilon = "0.01"
+epsilon_mode = "absolute"
+progress_transform = "linear"
+verifier_timeout_sec = 60
+max_certificate_bytes = 262144
+[submission]
+max_files = 8
+max_file_bytes = 262144
+max_shot_md_bytes = 32768
+max_total_bytes = 524288
+[params]
+max_summary_chars = 100
